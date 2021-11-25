@@ -1,0 +1,61 @@
+.share-body {
+    padding: 60px 0px;
+}
+
+.share-body h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #132339;
+}
+
+.share-body p {
+    text-align: center;
+    color: #565c64;
+}
+
+.social-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.social-item {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgb(0 15 36 / 10%);
+    padding: 26px 25px;
+    cursor: pointer;
+}
+
+.social-item:hover{
+    transform: scale(1.03);
+}
+
+.social-item h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+
+
+/*  Mobile phone */
+@media only screen and (max-width: 560px) {
+    .share-body {
+        padding: 60px 20px;
+    }
+
+    .share-body h2 {
+        font-size: 28px;
+    }
+    
+
+
+}

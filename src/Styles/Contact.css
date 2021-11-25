@@ -1,0 +1,156 @@
+.contact-body {
+    background-image: url(../Images/shape_bg.png);
+    background-repeat: no-repeat;
+}
+
+.contact-section {
+    padding: 100px 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 30px;
+}
+
+.input-section h2 {
+    font-size: 36px;
+    color: #011a3e;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.input-section p {
+    line-height: 24px;
+    color: #7a808d;
+}
+
+.from-group {
+    margin-top: 50px;
+    max-width: 600px;
+}
+
+.input-group {
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 0px;
+    padding-left: 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    box-shadow: 2.5px 4.33px 15px 0 rgb(0 0 0 / 15%);
+    box-sizing: border-box;
+}
+
+.message-box {
+    width: 100%;
+    height: 150px;
+    padding: 15px 0px;
+    padding-left: 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    overflow: auto;
+    resize: vertical;
+    box-shadow: 2.5px 4.33px 15px 0 rgb(0 0 0 / 15%);
+}
+
+.submit-message {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 30px;
+    color: #fff;
+    background: #feb000;
+    border-radius: 23px;
+    text-transform: uppercase;
+    font: 500 15px "Poppins", sans-serif;
+    letter-spacing: 1px;
+    transition: .5s;
+    border: none;
+    cursor: pointer;
+
+}
+
+.submit-message:hover {
+    box-shadow: 2.5px 4.33px 15px 0 rgb(254 176 0 / 40%);
+}
+
+
+
+
+/*...............Responsive........................*/
+
+/*  Mobile phone */
+@media only screen and (max-width: 560px) {
+
+    .contact-section {
+        padding: 100px 20px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 974px) {
+
+    .contact-section {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-section img {
+        max-width: 100%;
+    }
+
+    .input-section h2 {
+        font-size: 30px;
+    }
+
+    .from-group {
+        max-width: 100%;
+    }
+
+    .input-group {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .input {
+        margin-bottom: 30px;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 975px) and (max-width: 1184px) {
+
+    .contact-section img {
+        max-width: 450px;
+    }
+
+    .from-group {
+        width: 450px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1185px) and (max-width: 1380px) {
+
+    .from-group {
+        width: 500px;
+    }
+
+
+}
